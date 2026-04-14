@@ -1,0 +1,139 @@
+{
+  "theme": "DARK",
+  "archetype": "4 (Swiss & High-Contrast - Brutalist Variant)",
+  "domain": "Brutal Deathgrind Band Website",
+  "emotional_tone": "Raw, Ominous, Aggressive, Claustrophobic, Visceral",
+  "colors": {
+    "background_primary": "#000000",
+    "background_secondary": "#0a0a0a",
+    "text_primary": "#FFFFFF",
+    "text_secondary": "#A3A3A3",
+    "border": "#FFFFFF",
+    "accent_hover": "#8A0303",
+    "pure_black": "#000000",
+    "pure_white": "#FFFFFF"
+  },
+  "typography": {
+    "heading_font": "Anton, sans-serif",
+    "body_font": "JetBrains Mono, monospace",
+    "heading_styles": {
+      "h1": "text-5xl sm:text-6xl lg:text-8xl tracking-tighter uppercase leading-none font-bold",
+      "h2": "text-4xl sm:text-5xl lg:text-6xl tracking-tighter uppercase leading-none",
+      "h3": "text-2xl sm:text-3xl uppercase tracking-tight",
+      "h4": "text-xl uppercase"
+    },
+    "body_styles": {
+      "base": "text-sm sm:text-base leading-relaxed tracking-tight",
+      "small": "text-xs tracking-widest uppercase"
+    }
+  },
+  "layout_and_spacing": {
+    "philosophy": "Exposed grids, brutal asymmetry, pure rectangles, no rounded corners. Tight packing combined with aggressive negative space.",
+    "container_padding": "p-4 sm:p-8 lg:p-12",
+    "grid_gap": "gap-0 sm:gap-4",
+    "borders": "border border-white",
+    "border_radius": "rounded-none",
+    "shadows": {
+      "default": "none",
+      "hover": "shadow-[4px_4px_0px_#FFFFFF]",
+      "active": "shadow-[2px_2px_0px_#FFFFFF] translate-y-[2px] translate-x-[2px]"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-white text-black font-heading uppercase text-xl px-8 py-4 border-2 border-transparent hover:bg-black hover:text-white hover:border-white transition-colors",
+      "secondary": "bg-black text-white font-heading uppercase text-xl px-8 py-4 border-2 border-white hover:bg-white hover:text-black transition-colors"
+    },
+    "cards": {
+      "style": "bg-black border border-white p-6 relative overflow-hidden",
+      "hover": "hover:bg-[#0a0a0a] transition-colors"
+    },
+    "inputs": {
+      "style": "bg-black text-white border-b-2 border-white border-t-0 border-l-0 border-r-0 rounded-none px-0 py-4 focus:ring-0 focus:border-[#8A0303] outline-none font-mono placeholder:text-neutral-600 transition-colors w-full"
+    },
+    "navigation": {
+      "style": "fixed top-0 w-full bg-black/90 backdrop-blur-md border-b border-white z-50 flex justify-between items-center px-4 sm:px-8 py-4",
+      "links": "font-heading text-xl sm:text-2xl uppercase hover:text-[#8A0303] transition-colors tracking-wide"
+    }
+  },
+  "sections": {
+    "hero": {
+      "layout": "min-h-screen flex flex-col justify-end p-8 pb-24 relative border-b border-white",
+      "background": "Use Promo Horizontal image with a heavy bg-black/70 overlay to ensure text contrast. Optionally add a static noise grain texture overlay.",
+      "content": "Massive Band Logo centered or heavily offset, H1 'PESTE NEGRA' hiding behind it, and 'DEATHGRIND FROM THE SOUTHERN INFERNO' in mono font."
+    },
+    "music": {
+      "layout": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-0 border-y border-white",
+      "cards": "Square aspect ratio. Pure black background. On hover, invert colors. Show 'Parasita', 'Peste Negra EP', 'Podridão' with stark typography instead of literal album art if none exists, or use the 1x1 promo photo as a placeholder."
+    },
+    "videos": {
+      "layout": "grid grid-cols-1 lg:grid-cols-2 gap-8 p-8",
+      "style": "Iframe containers must have a 2px solid white border. Titles in heavy heading font above each."
+    },
+    "merch": {
+      "layout": "grid grid-cols-2 md:grid-cols-4 gap-4 p-8",
+      "style": "Stark boxes, border white, 'BUY' buttons. Use high-contrast monochrome placeholders if specific images are missing."
+    },
+    "tour_dates": {
+      "layout": "w-full border-collapse",
+      "style": "Table with 1px white border on tr/td. Font mono. Extremely dense data presentation."
+    },
+    "guestbook": {
+      "layout": "border border-white p-6 bg-[#050505] h-[400px] overflow-y-auto custom-scrollbar",
+      "style": "Looks like a terminal log. Messages prefixed with timestamp."
+    },
+    "contact_and_mailing": {
+      "layout": "grid grid-cols-1 md:grid-cols-2 gap-12 p-8 border-t border-white",
+      "style": "Brutalist forms. Massive labels."
+    },
+    "footer": {
+      "layout": "border-t border-white py-20 px-8 bg-black",
+      "style": "Massive scrolling marquee text for social links. E.g. 'YOUTUBE / SPOTIFY / APPLE MUSIC / BANDCAMP / INSTAGRAM / FACEBOOK'."
+    }
+  },
+  "animations_and_motion": {
+    "hover_states": "Harsh, instant or very fast transitions (100ms). No soft easing.",
+    "scroll_effects": "Use a slow, constant marquee for the social links. Maybe a slight parallax on the hero background.",
+    "marquee": "Font heading, text-8xl, uppercase, whitespace-nowrap, border-y border-white py-4"
+  },
+  "media": {
+    "logos": {
+      "band_logo": {
+        "url": "https://customer-assets.emergentagent.com/job_dae0d0fa-e7a0-443b-90b0-a4b47621439d/artifacts/pdbgce42_23242.jpg",
+        "description": "Peste Negra official brutal death metal logo (white on black)."
+      }
+    },
+    "hero_backgrounds": [
+      {
+        "url": "https://customer-assets.emergentagent.com/job_dae0d0fa-e7a0-443b-90b0-a4b47621439d/artifacts/ni949e1x_photo%20promo%20single%20horizontal.jpg",
+        "description": "Band promo horizontal - hooded figures at towers. Use for hero bg."
+      }
+    ],
+    "promos": [
+      {
+        "url": "https://customer-assets.emergentagent.com/job_dae0d0fa-e7a0-443b-90b0-a4b47621439d/artifacts/qrh65g74_photo%20promo%20single%201x1.jpg",
+        "description": "Band promo 1x1 - hooded figures. Use in about/contact or as album cover placeholder."
+      }
+    ],
+    "mood_images": [
+      {
+        "url": "https://images.unsplash.com/photo-1528645602411-bbeb0d69a6de?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHwyfHxkYXJrJTIwY29uY2VydCUyMGJsYWNrJTIwd2hpdGUlMjBtZXRhbHxlbnwwfHx8fDE3NzYxMjYyMjV8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Black and white concert crowd for atmospheric sections (guestbook bg or tour dates bg)."
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1566150951155-4a59643d8a9f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHwzfHxkYXJrJTIwY29uY2VydCUyMGJsYWNrJTIwd2hpdGUlMjBtZXRhbHxlbnwwfHx8fDE3NzYxMjYyMjV8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Person playing electric guitar, B/W. Use for live dates visual."
+      }
+    ]
+  },
+  "specific_instructions_for_agent": [
+    "This is a raw, pure brutalist design. DO NOT use generic rounded borders (`rounded-md`, `rounded-lg`) or soft box shadows anywhere.",
+    "Only use `Anton` for headings and `JetBrains Mono` for body text. DO NOT use Inter or standard sans-serifs.",
+    "Use 1px stark solid white borders heavily to separate sections and create an exposed grid look.",
+    "Implement the 'Marquee' for social links in the footer using raw CSS animation or framer-motion.",
+    "Forms should have massive inputs: black backgrounds with a single white bottom border, no rounded corners.",
+    "In the Music section, since we don't have all album cover images, use the provided 1x1 promo photo for one, and create pure CSS typographic black/white squares for the others (e.g., 'PARASITA' in massive text covering the square).",
+    "For the Guestbook, simulate a raw terminal look. Use purely `bg-black`, mono font, maybe a subtle glowing white border.",
+    "Add `data-testid` to all interactive elements."
+  ]
+}
